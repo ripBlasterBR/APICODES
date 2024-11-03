@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 // Simulação de um banco de dados de códigos, com um campo 'amount' para o valor de dinheiro
 const codes = {
-    "CÓDIGO1": { reward: "RECOMPENSA1", amount: 100 }, // O jogador recebe 100 de dinheiro
+    "UPDATE": { reward: "RECOMPENSA1", amount: 1000 }, // O jogador recebe 100 de dinheiro
     "CÓDIGO2": { reward: "RECOMPENSA2", amount: 200 }  // O jogador recebe 200 de dinheiro
 };
 
